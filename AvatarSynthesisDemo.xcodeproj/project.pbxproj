@@ -15,6 +15,11 @@
 		644CB5711D536FFA00BEA33A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644CB56F1D536FFA00BEA33A /* LaunchScreen.storyboard */; };
 		644CB57C1D536FFA00BEA33A /* AvatarSynthesisDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 644CB57B1D536FFA00BEA33A /* AvatarSynthesisDemoTests.m */; };
 		644CB5871D536FFA00BEA33A /* AvatarSynthesisDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 644CB5861D536FFA00BEA33A /* AvatarSynthesisDemoUITests.m */; };
+		644CB5961D53743600BEA33A /* ComposeAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = 644CB5951D53743600BEA33A /* ComposeAvatar.m */; };
+		644CB5991D53751C00BEA33A /* TSGroupListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 644CB5981D53751C00BEA33A /* TSGroupListCell.m */; };
+		644CB59C1D53790500BEA33A /* TSCroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 644CB59B1D53790500BEA33A /* TSCroupModel.m */; };
+		64616B081D543C8B0030538B /* default_group.png in Resources */ = {isa = PBXBuildFile; fileRef = 64616B071D543C8B0030538B /* default_group.png */; };
+		79B65F18DA07A718D4942359 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64397D79CC0911A52CCCD5A5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BA4C41A395E12308B171120 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		64397D79CC0911A52CCCD5A5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		644CB55E1D536FF900BEA33A /* AvatarSynthesisDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvatarSynthesisDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		644CB5621D536FFA00BEA33A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		644CB5641D536FFA00BEA33A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,14 @@
 		644CB5821D536FFA00BEA33A /* AvatarSynthesisDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvatarSynthesisDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		644CB5861D536FFA00BEA33A /* AvatarSynthesisDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvatarSynthesisDemoUITests.m; sourceTree = "<group>"; };
 		644CB5881D536FFA00BEA33A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644CB5941D53743600BEA33A /* ComposeAvatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeAvatar.h; sourceTree = "<group>"; };
+		644CB5951D53743600BEA33A /* ComposeAvatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeAvatar.m; sourceTree = "<group>"; };
+		644CB5971D53751C00BEA33A /* TSGroupListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSGroupListCell.h; sourceTree = "<group>"; };
+		644CB5981D53751C00BEA33A /* TSGroupListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSGroupListCell.m; sourceTree = "<group>"; };
+		644CB59A1D53790500BEA33A /* TSCroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCroupModel.h; sourceTree = "<group>"; };
+		644CB59B1D53790500BEA33A /* TSCroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSCroupModel.m; sourceTree = "<group>"; };
+		64616B071D543C8B0030538B /* default_group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_group.png; sourceTree = "<group>"; };
+		BF1D1F29FB0EBB6EA3A4E0AA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B65F18DA07A718D4942359 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +101,8 @@
 				644CB57A1D536FFA00BEA33A /* AvatarSynthesisDemoTests */,
 				644CB5851D536FFA00BEA33A /* AvatarSynthesisDemoUITests */,
 				644CB55F1D536FF900BEA33A /* Products */,
+				C71490F40D6B00C52269B705 /* Pods */,
+				B22F30F0FE584055275F0593 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +119,13 @@
 		644CB5601D536FFA00BEA33A /* AvatarSynthesisDemo */ = {
 			isa = PBXGroup;
 			children = (
+				64616B071D543C8B0030538B /* default_group.png */,
+				644CB5941D53743600BEA33A /* ComposeAvatar.h */,
+				644CB5951D53743600BEA33A /* ComposeAvatar.m */,
+				644CB5971D53751C00BEA33A /* TSGroupListCell.h */,
+				644CB5981D53751C00BEA33A /* TSGroupListCell.m */,
+				644CB59A1D53790500BEA33A /* TSCroupModel.h */,
+				644CB59B1D53790500BEA33A /* TSCroupModel.m */,
 				644CB5641D536FFA00BEA33A /* AppDelegate.h */,
 				644CB5651D536FFA00BEA33A /* AppDelegate.m */,
 				644CB5671D536FFA00BEA33A /* ViewController.h */,
@@ -140,6 +165,23 @@
 			path = AvatarSynthesisDemoUITests;
 			sourceTree = "<group>";
 		};
+		B22F30F0FE584055275F0593 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64397D79CC0911A52CCCD5A5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C71490F40D6B00C52269B705 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BA4C41A395E12308B171120 /* Pods.debug.xcconfig */,
+				BF1D1F29FB0EBB6EA3A4E0AA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 644CB58B1D536FFA00BEA33A /* Build configuration list for PBXNativeTarget "AvatarSynthesisDemo" */;
 			buildPhases = (
+				B8BE9AF46D5CD0DC1E1F5BEF /* Check Pods Manifest.lock */,
 				644CB55A1D536FF900BEA33A /* Sources */,
 				644CB55B1D536FF900BEA33A /* Frameworks */,
 				644CB55C1D536FF900BEA33A /* Resources */,
+				E57FCF0E71618DA647BAACAA /* Embed Pods Frameworks */,
+				D68DFE20A22BAAAD042838CE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				644CB5711D536FFA00BEA33A /* LaunchScreen.storyboard in Resources */,
+				64616B081D543C8B0030538B /* default_group.png in Resources */,
 				644CB56E1D536FFA00BEA33A /* Assets.xcassets in Resources */,
 				644CB56C1D536FFA00BEA33A /* Main.storyboard in Resources */,
 			);
@@ -265,14 +311,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B8BE9AF46D5CD0DC1E1F5BEF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D68DFE20A22BAAAD042838CE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E57FCF0E71618DA647BAACAA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		644CB55A1D536FF900BEA33A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				644CB59C1D53790500BEA33A /* TSCroupModel.m in Sources */,
+				644CB5991D53751C00BEA33A /* TSGroupListCell.m in Sources */,
 				644CB5691D536FFA00BEA33A /* ViewController.m in Sources */,
 				644CB5661D536FFA00BEA33A /* AppDelegate.m in Sources */,
 				644CB5631D536FFA00BEA33A /* main.m in Sources */,
+				644CB5961D53743600BEA33A /* ComposeAvatar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +506,7 @@
 		};
 		644CB58C1D536FFA00BEA33A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA4C41A395E12308B171120 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AvatarSynthesisDemo/Info.plist;
@@ -420,6 +518,7 @@
 		};
 		644CB58D1D536FFA00BEA33A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF1D1F29FB0EBB6EA3A4E0AA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AvatarSynthesisDemo/Info.plist;
@@ -496,6 +595,7 @@
 				644CB58D1D536FFA00BEA33A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		644CB58E1D536FFA00BEA33A /* Build configuration list for PBXNativeTarget "AvatarSynthesisDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +604,7 @@
 				644CB5901D536FFA00BEA33A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		644CB5911D536FFA00BEA33A /* Build configuration list for PBXNativeTarget "AvatarSynthesisDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +613,7 @@
 				644CB5931D536FFA00BEA33A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
